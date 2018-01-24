@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
     @RequestMapping("/test")
     public String test(){
+        //访问成功
         return "success";
     }
 }
